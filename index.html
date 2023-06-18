@@ -11,13 +11,13 @@
 
         <section class="greetin">
             <h2 class="title">
-                ¿Qué tal, <input type="text" id="name" placeholder="Escribe tu nombre aquí">?
+                ¡Hola, <input type="text" id="name" placeholder="Escribe tu nombre aquí">!
             </h2>
         </section>
         <section class="create-todo">
             <h3>Añadir una tarea</h3>
             <form id="new-todo-form">
-                <h4>¿Qué tienes pendiente de hacer?</h4>
+                <h4>Esta es tu lista de tareas pendientes</h4>
                 <input 
                 type="text" 
                 name="content" 
@@ -28,19 +28,19 @@
                     <label> 
                         <input 
                         type="radio" 
-                        name="categoria" 
+                        name="category" 
                         id="category1" 
                         value="business"/>
-                        <span class="bubble-business"></span>
+                        <span class="bubble bubble-business"></span>
                         <div>Trabajo</div>
                     </label>
                     <label> 
                         <input 
                         type="radio" 
-                        name="categoria" 
+                        name="category" 
                         id="category2" 
                         value="personal"/>
-                        <span class="bubble-personal"></span>
+                        <span class="bubble personal"></span>
                         <div>Personal</div>
                     </label>
                 </div>
@@ -62,7 +62,7 @@
                         <button class="edit">Editar</button>
                         <button class="delete">Borrar</button>
                 </div>
-                <div class="todo-item">
+                <div class="todo-item done">
                     <label>
                         <input type="checkbox" />
                         <span class="bubble-business"></span>
